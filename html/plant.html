@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
-        <link href="./styles/plant.css" rel="stylesheet" />
+        <link href="../styles/plant.css" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&display=swap" rel="stylesheet">
@@ -23,9 +23,18 @@
         </header>
         <hr />
         <main>
-            <div class="view-details">
-                <p>details details details</p>
-                <button onclick="window.location.href='index.html'">Return to Garden</button>
+            <div class="editor-box">
+                <div class="view-details">
+                    <div class="info">
+                        <label for="name">Plant Name:</label>
+                        <input type="text" id="name" name="name"><br><br>
+                        <label for="species">Species:</label>
+                        <input type="text" id="species" name="species"><br><br>
+                        <label for="notes">Notes:</label>
+                        <input type="text" id="notes" name="notes"><br><br>
+                        <button type="submit" onclick="window.location.href='index.html'">Save and Return to Garden</button>
+                    </div>
+                </div>
             </div>
         </main>
     </body>

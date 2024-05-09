@@ -9,4 +9,68 @@
     font-family: "Charmonman", cursive;
     font-weight: 700;
     font-style: normal;
-  }
+}
+
+.view-details {
+    background-color: #EAECCC;
+    width: 600px; /* Set the width of the card */
+    height: 500px; /* Set the height of the card */
+    border: 1px solid #CD8D7A;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin: 20px;
+    justify-content: center;
+}
+
+.info {
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    background-color: #EAECCC;
+    padding: 10% 0 0 30%;
+    font-size: large;
+}
+
+.editor-box {
+    display: flex;
+    justify-content: center; /* Adjust as needed */
+    margin-bottom: 20px;
+}
+
+input {
+    background-color: white;
+}
+
+label {
+    background-color: #EAECCC;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding to control button size */
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold;
+    background-color: #DBCC95; /* Button background color */
+    border: none;
+    border-radius: 5px; /* Optional: Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #CD8D7A;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px 0 20px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+main {
+    margin: 0 50px, 20px, 50px;
+}
