@@ -61,6 +61,7 @@ button {
 button:hover {
     background-color: #CD8D7A;
 }
+
 nav {
     display: flex;
     justify-content: flex-end;
@@ -73,4 +74,8 @@ h1 {
 
 main {
     margin: 0 50px, 20px, 50px;
+}
+
+.idk {
+    justify-content: center;
 }

@@ -38,7 +38,6 @@
     border-radius: 8px 8px 0 0;
     display: block; /* Ensure the image behaves as a block element */
     margin: auto;
-    object-fit: cover;
     border: 3px solid #CD8D7A;
 }
 
@@ -60,4 +59,18 @@
     flex-wrap: wrap;
     justify-content: center; /* Adjust as needed */
     margin-bottom: 20px; /* Adjust spacing between rows */
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px 0 20px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+main {
+    margin: 0 50px, 20px, 50px;
 }
