@@ -12,25 +12,54 @@
   }
 
 .plant {
-    padding: 20px;
-    background-color: #EAECCC;
+    width: 250px; /* Set the width of the card */
+    height: 300px; /* Set the height of the card */
     border: 1px solid #CD8D7A;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px; /* 5px rounded corners */
-    width: 170px; /* Set the width of the card */
-    height: 220px; /* Set the height of the card */
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin: 20px;
 }
 
-.container {
-    padding: 5px;
+.plant:hover {
+    border-color: #DBCC95;
+}
+
+.plant-content {
+    padding: 20px;
+    text-align: center;
     background-color: #EAECCC;
 }
 
 .plant-photo {
-    padding: 5px;
-    background-color: #CD8D7A;
-    border-radius: 5px 5px 0 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px 8px 0 0;
+    display: block; /* Ensure the image behaves as a block element */
+    margin: auto;
+    object-fit: cover;
+    border: 3px solid #CD8D7A;
+}
+
+.name {
+    background-color: #EAECCC;
+    margin: 0;
+}
+
+.species {
+    display: flex;
+    margin: 10px 0 10px 0;
+    background-color: #EAECCC;
+    justify-content: center;
+    align-content: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust spacing between rows */
 }
 
 nav {
@@ -41,4 +70,8 @@ nav {
 
 h1 {
     margin-bottom: 5px;
+}
+
+main {
+    margin: 0 50px, 20px, 50px;
 }
