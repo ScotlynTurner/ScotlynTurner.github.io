@@ -14,7 +14,7 @@ body {
     justify-content: center;
     background-image: url('../html/garden-lanscape.jpeg');
     background-size: cover;
-    background-position: center;
+
 }
 
 header, .login {
@@ -51,4 +51,3 @@ li {
   display: inline-block; /* Optional: to display items horizontally */
   margin-right: 10px; /* Optional: to add space between items */
 }
-
